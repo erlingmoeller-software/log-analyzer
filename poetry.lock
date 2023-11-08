@@ -60,6 +60,14 @@ docs = ["ipython", "matplotlib", "numpydoc", "sphinx"]
 tests = ["pytest", "pytest-cov", "pytest-xdist"]
 
 [[package]]
+name = "dpkt"
+version = "1.9.8"
+description = "fast, simple packet creation / parsing, with definitions for the basic TCP/IP protocols"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "fonttools"
 version = "4.44.0"
 description = "Tools to manipulate font files"
@@ -245,7 +253,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "f8d31afdc46c130bea08fcbcbb6a5cf28434471c85628625d39fda2f0be33b20"
+content-hash = "fe15b4cd1da273b3fd44b840e6aaad93441e30e6f127e275ad85fb0cdb7179bb"
 
 [metadata.files]
 atomicwrites = []
@@ -253,6 +261,7 @@ attrs = []
 colorama = []
 contourpy = []
 cycler = []
+dpkt = []
 fonttools = []
 kiwisolver = []
 matplotlib = []

@@ -9,6 +9,7 @@ python = "^3.10"
 matplotlib = "^3.8.1"
 pycairo = "^1.25.1"
 PyGObject = "^3.46.0"
+dpkt = "^1.9.8"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
